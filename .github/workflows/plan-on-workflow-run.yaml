@@ -3,6 +3,7 @@ name: Plan/Test on Workflow Run
 
 on:
   workflow_dispatch:
+    branches: [ dev ]
     inputs:
       logLevel:
         description: 'Log level'

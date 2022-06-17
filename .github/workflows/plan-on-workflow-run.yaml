@@ -17,10 +17,12 @@ on:
       tags:
         description: 'Test scenario tags'
         required: false
+        default: false
         type: boolean
       environment:
         description: 'Environment to run tests against'
         type: environment
+        default: development
         required: true
 
 jobs:

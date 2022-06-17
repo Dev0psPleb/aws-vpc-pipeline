@@ -1,5 +1,5 @@
 ---
-name: Plan/Test on Workflow Run
+name: Dispatch Workflow
 
 on:
   workflow_dispatch:
